@@ -13,7 +13,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
+
 }
 
 .player {
@@ -47,6 +47,7 @@ body {
 
     color: rgba(86, 46, 255, 1);
     font: 20px;
+    margin-top: 3px;
 }
 
 .container {
@@ -59,4 +60,55 @@ body {
     padding: 30px;
 
 
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+.player-litle {
+    margin-bottom: 2px;
+}
+
+/* =====----------------
+this is blog section
+-------===---------------- */
+.blog-container img {
+    width: 224px;
+    height: 127px;
+    padding-left: 16px;
+
+}
+
+.blog-detailes {
+
+    display: flex;
+
+}
+
+.blog-taitle {
+    margin-left: 16px;
+}
+
+.top-blog {
+    color: rgba(86, 46, 255, 1);
+    font-size: 24px;
+    padding-left: 16px;
+}
+
+.blog-taitle a {
+    text-decoration: none;
+    color: rgba(86, 46, 255, 1);
+}
+
+.maker-nana {
+
+    color: gray;
+}
+
+.blogs{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
