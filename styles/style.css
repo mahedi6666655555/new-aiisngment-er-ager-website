@@ -12,7 +12,8 @@ body {
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    gap: 20px;
+    
 }
 
 .player {
@@ -31,19 +32,31 @@ body {
 
 .player-name {
     padding-left: 16px;
+    font-size: 18px;
 
 }
 
-.width-bg{
+.width-bg {
 
     width: 870px;
     background-color: #efefef;
-    
+
 }
 
-.player-litle{
+.player-litle {
 
     color: rgba(86, 46, 255, 1);
     font: 20px;
 }
 
+.container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.players {
+    padding: 30px;
+
+
+}
