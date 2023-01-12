@@ -1,0 +1,49 @@
+/* players style */
+
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.player {
+
+    display: flex;
+
+}
+
+.player img {
+
+    width: 56px;
+    height: 56px;
+    align-items: center;
+
+}
+
+.player-name {
+    padding-left: 16px;
+
+}
+
+.width-bg{
+
+    width: 870px;
+    background-color: #efefef;
+    
+}
+
+.player-litle{
+
+    color: rgba(86, 46, 255, 1);
+    font: 20px;
+}
+
